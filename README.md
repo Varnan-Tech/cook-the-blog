@@ -1,5 +1,7 @@
 # cook-the-blog
 
+<img width="1280" height="640" alt="cook-the-blog-cover" src="https://github.com/user-attachments/assets/01fc87a2-78a8-433d-8531-a06a6a6df617" />
+
 This guide explains how to set up, configure, and run the `cook-the-blog` skill. This AI agent pipeline autonomously researches companies, extracts SEO keywords, generates custom cover images, writes high-converting MDX case studies without AI fluff, uploads assets to cloud storage, and pushes the final code to your designated GitHub repository.
 
 ## Prerequisites & Dependencies
