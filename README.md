@@ -4,6 +4,38 @@
 
 This guide explains how to set up, configure, and run the `cook-the-blog` skill. This AI agent pipeline autonomously researches companies, extracts SEO keywords, generates custom cover images, writes high-converting MDX case studies without AI fluff, uploads assets to cloud storage, and pushes the final code to your designated GitHub repository.
 
+## Installation
+
+### Prerequisites
+
+You need [Node.js](https://nodejs.org/) installed. It comes with `npx` built in.
+
+### Option 1: npx (All Agents)
+
+```bash
+npx "@opendirectory.dev/skills" install cook-the-blog --target claude
+```
+
+Supported `--target` values: `claude`, `gemini`, `codex`, `opencode`, `anti-gravity`, `openclaw`, `hermes`
+
+### Option 2: Native Plugin (Claude Code Only)
+
+Run these two commands inside your Claude Code terminal:
+
+```bash
+/plugin marketplace add Varnan-Tech/opendirectory
+/plugin install cook-the-blog@opendirectory-marketplace
+```
+
+### Option 3: Claude Desktop App
+
+**Step 1: Download**
+Click **Code → Download ZIP** on this repo's GitHub page.
+
+**Step 2: Install**
+1. Open Claude Desktop > Customize > Skills > **+** > Upload a skill
+2. Drop the downloaded zip or extracted folder
+
 ## Prerequisites & Dependencies
 
 Before running the skill, the AI agent needs access to several external tools, APIs, and environment details.
